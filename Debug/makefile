@@ -35,33 +35,19 @@ endif
 
 -include ../makefile.defs
 
-OPTIONAL_TOOL_DEPS := \
-$(wildcard ../makefile.defs) \
-$(wildcard ../makefile.init) \
-$(wildcard ../makefile.targets) \
-
-
-BUILD_ARTIFACT_NAME := pet_feeder_project
-BUILD_ARTIFACT_EXTENSION := axf
-BUILD_ARTIFACT_PREFIX :=
-BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
-
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all:
-	+@$(MAKE) --no-print-directory main-build && $(MAKE) --no-print-directory post-build
-
-# Main-build Target
-main-build: pet_feeder_project.axf
+all: pet_feeder_project.axf
 
 # Tool invocations
-pet_feeder_project.axf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+pet_feeder_project.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug" -Xlinker -Map="pet_feeder_project.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "pet_feeder_project_Debug.ld" -o "pet_feeder_project.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -L"C:\Users\Omistaja\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\Omistaja\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\Debug" -Xlinker -Map="pet_feeder_project.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "pet_feeder_project_Debug.ld" -o "pet_feeder_project.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
+	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
@@ -73,6 +59,7 @@ post-build:
 	-arm-none-eabi-size "pet_feeder_project.axf"; # arm-none-eabi-objcopy -v -O binary "pet_feeder_project.axf" "pet_feeder_project.bin" ; # checksum -p LPC1549 -d "pet_feeder_project.bin";
 	-@echo ' '
 
-.PHONY: all clean dependents post-build
+.PHONY: all clean dependents
+.SECONDARY: post-build
 
 -include ../makefile.targets

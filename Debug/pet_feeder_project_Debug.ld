@@ -6,7 +6,7 @@
  * Generated linker script file for LPC1549
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v11.5.1 [Build 7266] [2022-04-13] on 14 Nov 2022, 14:54:35
+ * MCUXpresso IDE v11.5.1 [Build 7266] [2022-04-13] on 21 Nov 2022, 15:09:16
  */
 
 INCLUDE "pet_feeder_project_Debug_library.ld"

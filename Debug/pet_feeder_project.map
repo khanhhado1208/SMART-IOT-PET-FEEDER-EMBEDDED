@@ -48,8 +48,6 @@ c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win
                               c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
                               c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-sbrkr.o) (errno)
-c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
-                              ./src/DigitalIoPin.o (operator delete(void*, unsigned int))
 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
                               c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-sbrkr.o) (_sbrk)
 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
@@ -133,7 +131,6 @@ Discarded input sections
  .group         0x00000000        0xc ./src/cr_cpp_config.o
  .group         0x00000000        0xc ./src/cr_cpp_config.o
  .group         0x00000000        0xc ./src/cr_cpp_config.o
- .group         0x00000000        0xc ./src/cr_cpp_config.o
  .text          0x00000000        0x0 ./src/cr_cpp_config.o
  .data          0x00000000        0x0 ./src/cr_cpp_config.o
  .bss           0x00000000        0x0 ./src/cr_cpp_config.o
@@ -144,13 +141,13 @@ Discarded input sections
                 0x00000000       0x18 ./src/cr_cpp_config.o
  .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
                 0x00000000        0x6 ./src/cr_cpp_config.o
- .debug_macro   0x00000000      0xb5c ./src/cr_cpp_config.o
+ .debug_macro   0x00000000      0xb32 ./src/cr_cpp_config.o
  .debug_macro   0x00000000       0x22 ./src/cr_cpp_config.o
  .group         0x00000000        0xc ./src/cr_startup_lpc15xx.o
  .text          0x00000000        0x0 ./src/cr_startup_lpc15xx.o
  .data          0x00000000        0x0 ./src/cr_startup_lpc15xx.o
  .bss           0x00000000        0x0 ./src/cr_startup_lpc15xx.o
- .debug_macro   0x00000000      0xb5c ./src/cr_startup_lpc15xx.o
+ .debug_macro   0x00000000      0xb32 ./src/cr_startup_lpc15xx.o
  .group         0x00000000        0xc ./src/crp.o
  .group         0x00000000        0xc ./src/crp.o
  .text          0x00000000        0x0 ./src/crp.o
@@ -236,21 +233,13 @@ Discarded input sections
  .group         0x00000000        0xc ./src/pet_feeder_project.o
  .group         0x00000000        0xc ./src/pet_feeder_project.o
  .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
- .group         0x00000000        0xc ./src/pet_feeder_project.o
  .text          0x00000000        0x0 ./src/pet_feeder_project.o
  .data          0x00000000        0x0 ./src/pet_feeder_project.o
  .bss           0x00000000        0x0 ./src/pet_feeder_project.o
- .debug_macro   0x00000000      0xb5c ./src/pet_feeder_project.o
+ .debug_macro   0x00000000      0xb32 ./src/pet_feeder_project.o
  .debug_macro   0x00000000       0x1c ./src/pet_feeder_project.o
  .debug_macro   0x00000000       0x22 ./src/pet_feeder_project.o
- .debug_macro   0x00000000       0x8e ./src/pet_feeder_project.o
+ .debug_macro   0x00000000       0x56 ./src/pet_feeder_project.o
  .debug_macro   0x00000000       0x51 ./src/pet_feeder_project.o
  .debug_macro   0x00000000      0x103 ./src/pet_feeder_project.o
  .debug_macro   0x00000000       0x6a ./src/pet_feeder_project.o
@@ -373,6 +362,7 @@ Discarded input sections
  .bss           0x00000000        0x0 ./src/sysinit.o
  .debug_macro   0x00000000      0xa8a ./src/sysinit.o
  .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x56 ./src/sysinit.o
  .debug_macro   0x00000000       0x51 ./src/sysinit.o
  .debug_macro   0x00000000      0x103 ./src/sysinit.o
  .debug_macro   0x00000000       0x6a ./src/sysinit.o
@@ -424,6 +414,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/sysinit.o
  .debug_macro   0x00000000       0x58 ./src/sysinit.o
  .debug_macro   0x00000000      0x182 ./src/sysinit.o
+ .debug_macro   0x00000000       0xbe ./src/sysinit.o
  .debug_macro   0x00000000       0x16 ./src/sysinit.o
  .debug_macro   0x00000000       0x20 ./src/sysinit.o
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
@@ -532,7 +523,6 @@ Discarded input sections
  .text.Joystick_GetStatus
                 0x00000000       0x60 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
@@ -591,15 +581,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000       0x58 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000      0x182 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x1c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x52 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x52 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0xd5 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x1c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00000000       0x3d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000       0x16 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_macro   0x00000000       0x20 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
@@ -795,9 +776,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
@@ -813,14 +791,6 @@ Discarded input sections
                 0x00000000       0x24 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .text.Chip_USB_Init
                 0x00000000       0x4c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
  .debug_macro   0x00000000       0x2d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
@@ -900,9 +870,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
@@ -930,13 +897,10 @@ Discarded input sections
                 0x00000000       0x30 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .text.Chip_Clock_SetPLLBypass
                 0x00000000       0x48 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
@@ -1017,9 +981,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
@@ -1041,13 +1002,10 @@ Discarded input sections
                 0x00000000       0x42 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .text.Chip_GPIO_SetPortDIR
                 0x00000000       0x3c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
@@ -1128,19 +1086,13 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
@@ -1221,9 +1173,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
@@ -1235,13 +1184,10 @@ Discarded input sections
                 0x00000000       0x30 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .text.Chip_SWM_IsFixedPinEnabled
                 0x00000000       0x48 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
@@ -1322,9 +1268,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
@@ -1334,13 +1277,10 @@ Discarded input sections
                 0x00000000       0x72 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .text.Chip_SYSCTL_SetWakeup
                 0x00000000       0x28 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
@@ -1421,9 +1361,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
@@ -1431,13 +1368,10 @@ Discarded input sections
                 0x00000000       0x5c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .text.Chip_SystemInit
                 0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
@@ -1476,9 +1410,6 @@ Discarded input sections
  .debug_macro   0x00000000      0x2ca C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .debug_macro   0x00000000      0x22b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
  .debug_macro   0x00000000       0x2e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
@@ -1560,13 +1491,10 @@ Discarded input sections
                 0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .text.Chip_UART_IRQRBHandler
                 0x00000000       0x48 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000       0x51 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .debug_macro   0x00000000       0x7b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
@@ -1612,23 +1540,6 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .text          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .data          0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .bss           0x00000000        0x0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
@@ -1650,38 +1561,21 @@ Discarded input sections
                 0x00000000       0x5c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .text.RingBuffer_PopMult
                 0x00000000      0x122 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_info    0x00000000      0x38f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_info    0x00000000      0x370 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_abbrev  0x00000000      0x143 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_aranges
                 0x00000000       0x60 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_ranges  0x00000000       0x50 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x14f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x5e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x18 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x94 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x35 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x34 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x174 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x16 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x43 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x57 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x34 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x83 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_macro   0x00000000      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x58 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x182 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x341 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x35 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x103 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x6a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x1df C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_macro   0x00000000       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_macro   0x00000000       0x74 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_macro   0x00000000       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_line    0x00000000      0x620 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_str     0x00000000     0x6b2b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_line    0x00000000      0x435 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_str     0x00000000     0x47b4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .comment       0x00000000       0x4a C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .debug_frame   0x00000000      0x164 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
  .ARM.attributes
@@ -1770,11 +1664,6 @@ Discarded input sections
                 0x00000000       0x48 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
  .text._reclaim_reent
                 0x00000000       0x90 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
- .text          0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
- .data          0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
- .bss           0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
- .ARM.extab.text._ZdlPvj
-                0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
  .text          0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
  .data          0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
  .bss           0x00000000        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
@@ -1848,7 +1737,7 @@ END GROUP
                 0x02009000                __top_Ram2_4 = 0x2009000
                 0x02009000                __top_RAM3 = 0x2009000
 
-.text           0x00000000     0x1a28
+.text           0x00000000     0x1a24
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1857,13 +1746,13 @@ END GROUP
                 0x000000fc                . = ALIGN (0x4)
                 0x000000fc                __section_table_start = .
                 0x000000fc                __data_section_table = .
-                0x000000fc        0x4 LONG 0x1a30 LOADADDR (.data)
+                0x000000fc        0x4 LONG 0x1a2c LOADADDR (.data)
                 0x00000100        0x4 LONG 0x2000000 ADDR (.data)
                 0x00000104        0x4 LONG 0x840 SIZEOF (.data)
-                0x00000108        0x4 LONG 0x1a30 LOADADDR (.data_RAM2)
+                0x00000108        0x4 LONG 0x1a2c LOADADDR (.data_RAM2)
                 0x0000010c        0x4 LONG 0x2004000 ADDR (.data_RAM2)
                 0x00000110        0x4 LONG 0x0 SIZEOF (.data_RAM2)
-                0x00000114        0x4 LONG 0x1a30 LOADADDR (.data_RAM3)
+                0x00000114        0x4 LONG 0x1a2c LOADADDR (.data_RAM3)
                 0x00000118        0x4 LONG 0x2008000 ADDR (.data_RAM3)
                 0x0000011c        0x4 LONG 0x0 SIZEOF (.data_RAM3)
                 0x00000120                __data_section_table_end = .
@@ -1959,16 +1848,17 @@ END GROUP
                 0x00000450                DigitalIoPin::~DigitalIoPin()
                 0x00000450                DigitalIoPin::~DigitalIoPin()
  .text._ZN12DigitalIoPinD0Ev
-                0x00000470       0x20 ./src/DigitalIoPin.o
+                0x00000470       0x1e ./src/DigitalIoPin.o
                 0x00000470                DigitalIoPin::~DigitalIoPin()
  .text._ZN12DigitalIoPin4readEv
-                0x00000490       0x28 ./src/DigitalIoPin.o
-                0x00000490                DigitalIoPin::read()
+                0x0000048e       0x28 ./src/DigitalIoPin.o
+                0x0000048e                DigitalIoPin::read()
  .text._ZN12DigitalIoPin5writeEb
-                0x000004b8       0x3a ./src/DigitalIoPin.o
-                0x000004b8                DigitalIoPin::write(bool)
- .text._ZdlPv   0x000004f2       0x16 ./src/cr_cpp_config.o
-                0x000004f2                operator delete(void*)
+                0x000004b6       0x3a ./src/DigitalIoPin.o
+                0x000004b6                DigitalIoPin::write(bool)
+ .text._ZdlPv   0x000004f0       0x16 ./src/cr_cpp_config.o
+                0x000004f0                operator delete(void*)
+ *fill*         0x00000506        0x2 ff
  .text.main     0x00000508       0x9c ./src/pet_feeder_project.o
                 0x00000508                main
  .text.SystemInit
@@ -2162,104 +2052,99 @@ END GROUP
  .text.__retarget_lock_release_recursive
                 0x000018c8        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-lock.o)
                 0x000018c8                __retarget_lock_release_recursive
- .text._ZdlPvj  0x000018cc        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
-                0x000018cc                operator delete(void*, unsigned int)
- .text._sbrk    0x000018d0       0x3c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
-                0x000018d0                _sbrk
+ .text._sbrk    0x000018cc       0x3c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x000018cc                _sbrk
  .text.__check_heap_overflow
-                0x0000190c       0x14 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
-                0x0000190c                __check_heap_overflow
- .text          0x00001920       0x40 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
- .text.__errno  0x00001960        0xc c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
-                0x00001960                __errno
+                0x00001908       0x14 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x00001908                __check_heap_overflow
+ .text          0x0000191c       0x40 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
+ .text.__errno  0x0000195c        0xc c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
+                0x0000195c                __errno
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata._ZTV12DigitalIoPin
-                0x0000196c       0x14 ./src/DigitalIoPin.o
-                0x0000196c                vtable for DigitalIoPin
+                0x00001968       0x14 ./src/DigitalIoPin.o
+                0x00001968                vtable for DigitalIoPin
  .rodata.OscRateIn
-                0x00001980        0x4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
-                0x00001980                OscRateIn
+                0x0000197c        0x4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+                0x0000197c                OscRateIn
  .rodata.RTCOscRateIn
-                0x00001984        0x4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
-                0x00001984                RTCOscRateIn
+                0x00001980        0x4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+                0x00001980                RTCOscRateIn
  .rodata.ledpins
+                0x00001984        0x3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ *fill*         0x00001987        0x1 ff
+ .rodata.ledports
                 0x00001988        0x3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  *fill*         0x0000198b        0x1 ff
- .rodata.ledports
-                0x0000198c        0x3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- *fill*         0x0000198f        0x1 ff
  .rodata.ioconSetup
-                0x00001990       0x74 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+                0x0000198c       0x74 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
  .rodata.swmSetup
-                0x00001a04        0x6 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
-                0x00001a0c                . = ALIGN (0x4)
- *fill*         0x00001a0a        0x2 ff
-                0x00001a0c                . = ALIGN (0x4)
+                0x00001a00        0x6 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+                0x00001a08                . = ALIGN (0x4)
+ *fill*         0x00001a06        0x2 ff
+                0x00001a08                . = ALIGN (0x4)
  *(.init)
- .init          0x00001a0c        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crti.o
-                0x00001a0c                _init
- .init          0x00001a10        0x8 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtn.o
-                0x00001a18                . = ALIGN (0x4)
-                0x00001a18                __preinit_array_start = .
+ .init          0x00001a08        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crti.o
+                0x00001a08                _init
+ .init          0x00001a0c        0x8 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtn.o
+                0x00001a14                . = ALIGN (0x4)
+                0x00001a14                __preinit_array_start = .
  *(.preinit_array)
-                0x00001a18                __preinit_array_end = .
-                0x00001a18                . = ALIGN (0x4)
-                0x00001a18                __init_array_start = .
+                0x00001a14                __preinit_array_end = .
+                0x00001a14                . = ALIGN (0x4)
+                0x00001a14                __init_array_start = .
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x00001a18        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
-                0x00001a1c                __init_array_end = .
+ .init_array    0x00001a14        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
+                0x00001a18                __init_array_end = .
  *(.fini)
- .fini          0x00001a1c        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crti.o
-                0x00001a1c                _fini
- .fini          0x00001a20        0x8 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtn.o
-                0x00001a28                . = ALIGN (0x4)
+ .fini          0x00001a18        0x4 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crti.o
+                0x00001a18                _fini
+ .fini          0x00001a1c        0x8 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtn.o
+                0x00001a24                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *crtend.o(.ctors)
-                0x00001a28                . = ALIGN (0x4)
+                0x00001a24                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *crtend.o(.dtors)
-                0x00001a28                . = ALIGN (0x4)
+                0x00001a24                . = ALIGN (0x4)
 
-.glue_7         0x00001a28        0x0
- .glue_7        0x00001a28        0x0 linker stubs
+.glue_7         0x00001a24        0x0
+ .glue_7        0x00001a24        0x0 linker stubs
 
-.glue_7t        0x00001a28        0x0
- .glue_7t       0x00001a28        0x0 linker stubs
+.glue_7t        0x00001a24        0x0
+ .glue_7t       0x00001a24        0x0 linker stubs
 
-.vfp11_veneer   0x00001a28        0x0
- .vfp11_veneer  0x00001a28        0x0 linker stubs
+.vfp11_veneer   0x00001a24        0x0
+ .vfp11_veneer  0x00001a24        0x0 linker stubs
 
-.v4_bx          0x00001a28        0x0
- .v4_bx         0x00001a28        0x0 linker stubs
+.v4_bx          0x00001a24        0x0
+ .v4_bx         0x00001a24        0x0 linker stubs
 
-.iplt           0x00001a28        0x0
- .iplt          0x00001a28        0x0 ./src/DigitalIoPin.o
+.iplt           0x00001a24        0x0
+ .iplt          0x00001a24        0x0 ./src/DigitalIoPin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x00001a28        0x8
-                0x00001a28                __exidx_start = .
+.ARM.exidx      0x00001a24        0x8
+                0x00001a24                __exidx_start = .
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00001a28        0x8 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
- .ARM.exidx.text._ZdlPvj
-                0x00001a30        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
-                                  0x8 (size before relaxing)
-                0x00001a30                __exidx_end = .
-                0x00001a30                _etext = .
+ .ARM.exidx     0x00001a24        0x8 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00001a2c                __exidx_end = .
+                0x00001a2c                _etext = .
 
-.rel.dyn        0x00001a30        0x0
- .rel.iplt      0x00001a30        0x0 ./src/DigitalIoPin.o
+.rel.dyn        0x00001a2c        0x0
+ .rel.iplt      0x00001a2c        0x0 ./src/DigitalIoPin.o
 
-.eh_frame       0x00001a30        0x0
- .eh_frame      0x00001a30        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
+.eh_frame       0x00001a2c        0x0
+ .eh_frame      0x00001a2c        0x0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
 
-.data_RAM2      0x02004000        0x0 load address 0x00001a30
+.data_RAM2      0x02004000        0x0 load address 0x00001a2c
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2 = .)
                 [!provide]                PROVIDE (__start_data_Ram1_16 = .)
@@ -2273,7 +2158,7 @@ END GROUP
                 [!provide]                PROVIDE (__end_data_RAM2 = .)
                 [!provide]                PROVIDE (__end_data_Ram1_16 = .)
 
-.data_RAM3      0x02008000        0x0 load address 0x00001a30
+.data_RAM3      0x02008000        0x0 load address 0x00001a2c
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM3 = .)
                 [!provide]                PROVIDE (__start_data_Ram2_4 = .)
@@ -2294,7 +2179,7 @@ END GROUP
                 0x02000000                . = ALIGN (0x4)
                 0x02000000                _end_uninit_RESERVED = .
 
-.data           0x02000000      0x840 load address 0x00001a30
+.data           0x02000000      0x840 load address 0x00001a2c
  FILL mask 0xff
                 0x02000000                _data = .
                 [!provide]                PROVIDE (__start_data_RAM = .)
@@ -2325,7 +2210,7 @@ END GROUP
                 [!provide]                PROVIDE (__end_data_RAM = .)
                 [!provide]                PROVIDE (__end_data_Ram0_16 = .)
 
-.igot.plt       0x02000840        0x0 load address 0x00002270
+.igot.plt       0x02000840        0x0 load address 0x0000226c
  .igot.plt      0x02000840        0x0 ./src/DigitalIoPin.o
 
 .bss_RAM2       0x02004000        0x0
@@ -2418,12 +2303,12 @@ END GROUP
                 0x02004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_Ram0_16 - 0x0))
                 0xfdffb2e2                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x00000000                _image_start = LOADADDR (.text)
-                0x00002270                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x00002270                _image_size = (_image_end - _image_start)
+                0x0000226c                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000226c                _image_size = (_image_end - _image_start)
 OUTPUT(pet_feeder_project.axf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000     0x6ad0
+.debug_info     0x00000000     0x6a04
  .debug_info    0x00000000      0x64a ./src/DigitalIoPin.o
  .debug_info    0x0000064a      0x9f1 ./src/cr_cpp_config.o
  .debug_info    0x0000103b      0x2ac ./src/cr_startup_lpc15xx.o
@@ -2431,16 +2316,16 @@ LOAD linker stubs
  .debug_info    0x00001405       0x90 ./src/sysinit.o
  .debug_info    0x00001495      0xb36 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .debug_info    0x00001fcb      0xcb2 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_info    0x00002c7d      0x997 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_info    0x00003614      0xdaa C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_info    0x000043be      0x618 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_info    0x000049d6      0x1e3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_info    0x00004bb9      0x5e2 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_info    0x0000519b      0x749 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_info    0x000058e4      0x723 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_info    0x00006007      0x926 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_info    0x0000692d      0x132 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_info    0x00006a5f       0x71 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_info    0x00002c7d      0x97f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_info    0x000035fc      0xd86 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_info    0x00004382      0x600 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_info    0x00004982      0x1cb C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_info    0x00004b4d      0x5ca C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_info    0x00005117      0x731 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_info    0x00005848      0x70b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_info    0x00005f53      0x90e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_info    0x00006861      0x132 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_info    0x00006993       0x71 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
 .debug_abbrev   0x00000000     0x1a55
  .debug_abbrev  0x00000000      0x2d8 ./src/DigitalIoPin.o
@@ -2516,180 +2401,184 @@ LOAD linker stubs
  .debug_ranges  0x00000588       0x10 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
  .debug_ranges  0x00000598       0x10 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_macro    0x00000000     0x8d20
+.debug_macro    0x00000000     0x9c5c
  .debug_macro   0x00000000      0x26f ./src/DigitalIoPin.o
- .debug_macro   0x0000026f      0xb5c ./src/DigitalIoPin.o
- .debug_macro   0x00000dcb       0x1c ./src/DigitalIoPin.o
- .debug_macro   0x00000de7       0x22 ./src/DigitalIoPin.o
- .debug_macro   0x00000e09       0x8e ./src/DigitalIoPin.o
- .debug_macro   0x00000e97       0x51 ./src/DigitalIoPin.o
- .debug_macro   0x00000ee8      0x103 ./src/DigitalIoPin.o
- .debug_macro   0x00000feb       0x6a ./src/DigitalIoPin.o
- .debug_macro   0x00001055      0x1df ./src/DigitalIoPin.o
- .debug_macro   0x00001234       0x16 ./src/DigitalIoPin.o
- .debug_macro   0x0000124a       0x7b ./src/DigitalIoPin.o
- .debug_macro   0x000012c5       0x10 ./src/DigitalIoPin.o
- .debug_macro   0x000012d5       0x2d ./src/DigitalIoPin.o
- .debug_macro   0x00001302       0x3a ./src/DigitalIoPin.o
- .debug_macro   0x0000133c       0x2d ./src/DigitalIoPin.o
- .debug_macro   0x00001369      0xa7d ./src/DigitalIoPin.o
- .debug_macro   0x00001de6      0x1b4 ./src/DigitalIoPin.o
- .debug_macro   0x00001f9a       0xca ./src/DigitalIoPin.o
- .debug_macro   0x00002064       0x18 ./src/DigitalIoPin.o
- .debug_macro   0x0000207c       0xb2 ./src/DigitalIoPin.o
- .debug_macro   0x0000212e       0x70 ./src/DigitalIoPin.o
- .debug_macro   0x0000219e       0x46 ./src/DigitalIoPin.o
- .debug_macro   0x000021e4       0xd0 ./src/DigitalIoPin.o
- .debug_macro   0x000022b4       0x40 ./src/DigitalIoPin.o
- .debug_macro   0x000022f4      0x233 ./src/DigitalIoPin.o
- .debug_macro   0x00002527       0x16 ./src/DigitalIoPin.o
- .debug_macro   0x0000253d       0x88 ./src/DigitalIoPin.o
- .debug_macro   0x000025c5       0x34 ./src/DigitalIoPin.o
- .debug_macro   0x000025f9       0x6a ./src/DigitalIoPin.o
- .debug_macro   0x00002663       0x40 ./src/DigitalIoPin.o
- .debug_macro   0x000026a3       0x1c ./src/DigitalIoPin.o
- .debug_macro   0x000026bf       0x16 ./src/DigitalIoPin.o
- .debug_macro   0x000026d5      0x10c ./src/DigitalIoPin.o
- .debug_macro   0x000027e1      0x2a9 ./src/DigitalIoPin.o
- .debug_macro   0x00002a8a       0x76 ./src/DigitalIoPin.o
- .debug_macro   0x00002b00       0x22 ./src/DigitalIoPin.o
- .debug_macro   0x00002b22      0x152 ./src/DigitalIoPin.o
- .debug_macro   0x00002c74       0x82 ./src/DigitalIoPin.o
- .debug_macro   0x00002cf6       0xe6 ./src/DigitalIoPin.o
- .debug_macro   0x00002ddc       0x3a ./src/DigitalIoPin.o
- .debug_macro   0x00002e16       0x34 ./src/DigitalIoPin.o
- .debug_macro   0x00002e4a       0x10 ./src/DigitalIoPin.o
- .debug_macro   0x00002e5a       0x76 ./src/DigitalIoPin.o
- .debug_macro   0x00002ed0       0x58 ./src/DigitalIoPin.o
- .debug_macro   0x00002f28      0x2ca ./src/DigitalIoPin.o
- .debug_macro   0x000031f2      0x22b ./src/DigitalIoPin.o
- .debug_macro   0x0000341d       0x2e ./src/DigitalIoPin.o
- .debug_macro   0x0000344b      0x13e ./src/cr_cpp_config.o
- .debug_macro   0x00003589      0x18a ./src/cr_cpp_config.o
- .debug_macro   0x00003713       0x10 ./src/cr_cpp_config.o
- .debug_macro   0x00003723      0x3d1 ./src/cr_cpp_config.o
- .debug_macro   0x00003af4       0x10 ./src/cr_cpp_config.o
- .debug_macro   0x00003b04       0x18 ./src/cr_cpp_config.o
- .debug_macro   0x00003b1c       0x5e ./src/cr_cpp_config.o
- .debug_macro   0x00003b7a       0x94 ./src/cr_cpp_config.o
- .debug_macro   0x00003c0e       0x35 ./src/cr_cpp_config.o
- .debug_macro   0x00003c43       0x34 ./src/cr_cpp_config.o
- .debug_macro   0x00003c77       0x16 ./src/cr_cpp_config.o
- .debug_macro   0x00003c8d      0x10e ./src/cr_cpp_config.o
- .debug_macro   0x00003d9b       0x94 ./src/cr_cpp_config.o
- .debug_macro   0x00003e2f       0x16 ./src/cr_cpp_config.o
- .debug_macro   0x00003e45       0x43 ./src/cr_cpp_config.o
- .debug_macro   0x00003e88       0x57 ./src/cr_cpp_config.o
- .debug_macro   0x00003edf       0x34 ./src/cr_cpp_config.o
- .debug_macro   0x00003f13       0x10 ./src/cr_cpp_config.o
- .debug_macro   0x00003f23       0x58 ./src/cr_cpp_config.o
- .debug_macro   0x00003f7b      0x182 ./src/cr_cpp_config.o
- .debug_macro   0x000040fd      0x364 ./src/cr_cpp_config.o
- .debug_macro   0x00004461       0x16 ./src/cr_cpp_config.o
- .debug_macro   0x00004477       0x29 ./src/cr_cpp_config.o
- .debug_macro   0x000044a0       0x1c ./src/cr_cpp_config.o
- .debug_macro   0x000044bc       0xde ./src/cr_cpp_config.o
- .debug_macro   0x0000459a       0x23 ./src/cr_startup_lpc15xx.o
- .debug_macro   0x000045bd      0x3ef ./src/pet_feeder_project.o
- .debug_macro   0x000049ac       0x34 ./src/pet_feeder_project.o
- .debug_macro   0x000049e0       0x64 ./src/pet_feeder_project.o
- .debug_macro   0x00004a44       0x16 ./src/pet_feeder_project.o
- .debug_macro   0x00004a5a       0x97 ./src/pet_feeder_project.o
- .debug_macro   0x00004af1      0x104 ./src/pet_feeder_project.o
- .debug_macro   0x00004bf5       0x10 ./src/pet_feeder_project.o
- .debug_macro   0x00004c05       0x10 ./src/pet_feeder_project.o
- .debug_macro   0x00004c15       0x1c ./src/pet_feeder_project.o
- .debug_macro   0x00004c31       0x52 ./src/pet_feeder_project.o
- .debug_macro   0x00004c83       0x22 ./src/pet_feeder_project.o
- .debug_macro   0x00004ca5       0x10 ./src/pet_feeder_project.o
- .debug_macro   0x00004cb5       0x52 ./src/pet_feeder_project.o
- .debug_macro   0x00004d07       0xd5 ./src/pet_feeder_project.o
- .debug_macro   0x00004ddc       0x1c ./src/pet_feeder_project.o
- .debug_macro   0x00004df8       0x3d ./src/pet_feeder_project.o
- .debug_macro   0x00004e35       0x16 ./src/pet_feeder_project.o
- .debug_macro   0x00004e4b      0x137 ./src/pet_feeder_project.o
- .debug_macro   0x00004f82       0x20 ./src/pet_feeder_project.o
- .debug_macro   0x00004fa2       0x82 ./src/pet_feeder_project.o
- .debug_macro   0x00005024      0x36b ./src/sysinit.o
- .debug_macro   0x0000538f       0x56 ./src/sysinit.o
- .debug_macro   0x000053e5       0x22 ./src/sysinit.o
- .debug_macro   0x00005407      0xa7d ./src/sysinit.o
- .debug_macro   0x00005e84       0x34 ./src/sysinit.o
- .debug_macro   0x00005eb8       0x97 ./src/sysinit.o
- .debug_macro   0x00005f4f      0x341 ./src/sysinit.o
- .debug_macro   0x00006290       0xfd ./src/sysinit.o
- .debug_macro   0x0000638d       0x43 ./src/sysinit.o
- .debug_macro   0x000063d0       0xbe ./src/sysinit.o
- .debug_macro   0x0000648e      0x129 ./src/sysinit.o
- .debug_macro   0x000065b7      0x3ed C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x000069a4      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00007422      0x16f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00007591       0x12 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x000075a3      0x40e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_macro   0x000079b1       0x16 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_macro   0x000079c7       0x35 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_macro   0x000079fc      0x260 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x00007c5c      0x260 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00007ebc      0x260 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x0000811c      0x260 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x0000837c      0x26c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x000085e8      0x278 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x00008860      0x260 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x00008ac0      0x260 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_macro   0x0000026f      0xb32 ./src/DigitalIoPin.o
+ .debug_macro   0x00000da1       0x1c ./src/DigitalIoPin.o
+ .debug_macro   0x00000dbd       0x22 ./src/DigitalIoPin.o
+ .debug_macro   0x00000ddf       0x56 ./src/DigitalIoPin.o
+ .debug_macro   0x00000e35       0x51 ./src/DigitalIoPin.o
+ .debug_macro   0x00000e86      0x103 ./src/DigitalIoPin.o
+ .debug_macro   0x00000f89       0x6a ./src/DigitalIoPin.o
+ .debug_macro   0x00000ff3      0x1df ./src/DigitalIoPin.o
+ .debug_macro   0x000011d2       0x16 ./src/DigitalIoPin.o
+ .debug_macro   0x000011e8       0x7b ./src/DigitalIoPin.o
+ .debug_macro   0x00001263       0x10 ./src/DigitalIoPin.o
+ .debug_macro   0x00001273       0x2d ./src/DigitalIoPin.o
+ .debug_macro   0x000012a0       0x3a ./src/DigitalIoPin.o
+ .debug_macro   0x000012da       0x2d ./src/DigitalIoPin.o
+ .debug_macro   0x00001307      0xa7d ./src/DigitalIoPin.o
+ .debug_macro   0x00001d84      0x1b4 ./src/DigitalIoPin.o
+ .debug_macro   0x00001f38       0xca ./src/DigitalIoPin.o
+ .debug_macro   0x00002002       0x18 ./src/DigitalIoPin.o
+ .debug_macro   0x0000201a       0xb2 ./src/DigitalIoPin.o
+ .debug_macro   0x000020cc       0x70 ./src/DigitalIoPin.o
+ .debug_macro   0x0000213c       0x46 ./src/DigitalIoPin.o
+ .debug_macro   0x00002182       0xd0 ./src/DigitalIoPin.o
+ .debug_macro   0x00002252       0x40 ./src/DigitalIoPin.o
+ .debug_macro   0x00002292      0x233 ./src/DigitalIoPin.o
+ .debug_macro   0x000024c5       0x16 ./src/DigitalIoPin.o
+ .debug_macro   0x000024db       0x88 ./src/DigitalIoPin.o
+ .debug_macro   0x00002563       0x34 ./src/DigitalIoPin.o
+ .debug_macro   0x00002597       0x6a ./src/DigitalIoPin.o
+ .debug_macro   0x00002601       0x40 ./src/DigitalIoPin.o
+ .debug_macro   0x00002641       0x1c ./src/DigitalIoPin.o
+ .debug_macro   0x0000265d       0x16 ./src/DigitalIoPin.o
+ .debug_macro   0x00002673      0x10c ./src/DigitalIoPin.o
+ .debug_macro   0x0000277f      0x2a9 ./src/DigitalIoPin.o
+ .debug_macro   0x00002a28       0x76 ./src/DigitalIoPin.o
+ .debug_macro   0x00002a9e       0x22 ./src/DigitalIoPin.o
+ .debug_macro   0x00002ac0      0x152 ./src/DigitalIoPin.o
+ .debug_macro   0x00002c12       0x82 ./src/DigitalIoPin.o
+ .debug_macro   0x00002c94       0xe6 ./src/DigitalIoPin.o
+ .debug_macro   0x00002d7a       0x3a ./src/DigitalIoPin.o
+ .debug_macro   0x00002db4       0x34 ./src/DigitalIoPin.o
+ .debug_macro   0x00002de8       0x10 ./src/DigitalIoPin.o
+ .debug_macro   0x00002df8       0x76 ./src/DigitalIoPin.o
+ .debug_macro   0x00002e6e       0x58 ./src/DigitalIoPin.o
+ .debug_macro   0x00002ec6      0x2ca ./src/DigitalIoPin.o
+ .debug_macro   0x00003190      0x22b ./src/DigitalIoPin.o
+ .debug_macro   0x000033bb       0x2e ./src/DigitalIoPin.o
+ .debug_macro   0x000033e9      0x135 ./src/cr_cpp_config.o
+ .debug_macro   0x0000351e      0x18a ./src/cr_cpp_config.o
+ .debug_macro   0x000036a8       0x10 ./src/cr_cpp_config.o
+ .debug_macro   0x000036b8      0x3d1 ./src/cr_cpp_config.o
+ .debug_macro   0x00003a89       0x10 ./src/cr_cpp_config.o
+ .debug_macro   0x00003a99       0x18 ./src/cr_cpp_config.o
+ .debug_macro   0x00003ab1       0x5e ./src/cr_cpp_config.o
+ .debug_macro   0x00003b0f       0x5c ./src/cr_cpp_config.o
+ .debug_macro   0x00003b6b       0x35 ./src/cr_cpp_config.o
+ .debug_macro   0x00003ba0       0x34 ./src/cr_cpp_config.o
+ .debug_macro   0x00003bd4       0x16 ./src/cr_cpp_config.o
+ .debug_macro   0x00003bea      0x10e ./src/cr_cpp_config.o
+ .debug_macro   0x00003cf8       0x94 ./src/cr_cpp_config.o
+ .debug_macro   0x00003d8c       0x16 ./src/cr_cpp_config.o
+ .debug_macro   0x00003da2       0x43 ./src/cr_cpp_config.o
+ .debug_macro   0x00003de5       0x57 ./src/cr_cpp_config.o
+ .debug_macro   0x00003e3c       0x34 ./src/cr_cpp_config.o
+ .debug_macro   0x00003e70       0x10 ./src/cr_cpp_config.o
+ .debug_macro   0x00003e80       0x58 ./src/cr_cpp_config.o
+ .debug_macro   0x00003ed8      0x182 ./src/cr_cpp_config.o
+ .debug_macro   0x0000405a      0x364 ./src/cr_cpp_config.o
+ .debug_macro   0x000043be       0x22 ./src/cr_cpp_config.o
+ .debug_macro   0x000043e0       0x1c ./src/cr_cpp_config.o
+ .debug_macro   0x000043fc       0xde ./src/cr_cpp_config.o
+ .debug_macro   0x000044da       0x23 ./src/cr_startup_lpc15xx.o
+ .debug_macro   0x000044fd      0x383 ./src/pet_feeder_project.o
+ .debug_macro   0x00004880       0x34 ./src/pet_feeder_project.o
+ .debug_macro   0x000048b4       0x64 ./src/pet_feeder_project.o
+ .debug_macro   0x00004918       0x16 ./src/pet_feeder_project.o
+ .debug_macro   0x0000492e       0x97 ./src/pet_feeder_project.o
+ .debug_macro   0x000049c5      0x104 ./src/pet_feeder_project.o
+ .debug_macro   0x00004ac9       0x10 ./src/pet_feeder_project.o
+ .debug_macro   0x00004ad9       0xbe ./src/pet_feeder_project.o
+ .debug_macro   0x00004b97       0x16 ./src/pet_feeder_project.o
+ .debug_macro   0x00004bad      0x114 ./src/pet_feeder_project.o
+ .debug_macro   0x00004cc1       0x20 ./src/pet_feeder_project.o
+ .debug_macro   0x00004ce1       0x82 ./src/pet_feeder_project.o
+ .debug_macro   0x00004d63      0x36b ./src/sysinit.o
+ .debug_macro   0x000050ce       0x22 ./src/sysinit.o
+ .debug_macro   0x000050f0      0xa7d ./src/sysinit.o
+ .debug_macro   0x00005b6d       0x34 ./src/sysinit.o
+ .debug_macro   0x00005ba1       0x97 ./src/sysinit.o
+ .debug_macro   0x00005c38      0x341 ./src/sysinit.o
+ .debug_macro   0x00005f79       0xfd ./src/sysinit.o
+ .debug_macro   0x00006076       0x43 ./src/sysinit.o
+ .debug_macro   0x000060b9      0x129 ./src/sysinit.o
+ .debug_macro   0x000061e2      0x3ed C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x000065cf      0xa7e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000704d       0x8e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x000070db       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x000070eb       0x1c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x00007107       0x52 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x00007159       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000717b       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000718b       0x52 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x000071dd       0xd5 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x000072b2       0x1c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x000072ce       0x3d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000730b      0x16f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000747a       0x12 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000748c      0x40e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_macro   0x0000789a       0x16 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_macro   0x000078b0       0x35 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_macro   0x000078e5      0x239 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x00007b1e      0xa78 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x00008596       0x10 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x000085a6      0x12e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x000086d4      0x5b3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x00008c87       0x22 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x00008ca9      0x239 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_macro   0x00008ee2      0x239 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_macro   0x0000911b      0x239 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_macro   0x00009354      0x245 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_macro   0x00009599      0x251 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_macro   0x000097ea      0x239 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_macro   0x00009a23      0x239 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
 
-.debug_line     0x00000000     0x7353
+.debug_line     0x00000000     0x684f
  .debug_line    0x00000000      0x797 ./src/DigitalIoPin.o
- .debug_line    0x00000797      0x5ee ./src/cr_cpp_config.o
- .debug_line    0x00000d85      0x172 ./src/cr_startup_lpc15xx.o
- .debug_line    0x00000ef7      0x81a ./src/pet_feeder_project.o
- .debug_line    0x00001711      0x746 ./src/sysinit.o
- .debug_line    0x00001e57      0xb04 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_line    0x0000295b      0x942 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_line    0x0000329d      0x6f3 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_line    0x00003990      0xb18 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_line    0x000044a8      0x769 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_line    0x00004c11      0x670 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_line    0x00005281      0x6db C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_line    0x0000595c      0x730 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_line    0x0000608c      0x736 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_line    0x000067c2      0x95b C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_line    0x0000711d      0x1d5 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_line    0x000072f2       0x61 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_line    0x00000797      0x5e2 ./src/cr_cpp_config.o
+ .debug_line    0x00000d79      0x172 ./src/cr_startup_lpc15xx.o
+ .debug_line    0x00000eeb      0x7b2 ./src/pet_feeder_project.o
+ .debug_line    0x0000169d      0x746 ./src/sysinit.o
+ .debug_line    0x00001de3      0xb04 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_line    0x000028e7      0x942 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_line    0x00003229      0x5a1 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_line    0x000037ca      0x9c6 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_line    0x00004190      0x617 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_line    0x000047a7      0x51e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_line    0x00004cc5      0x589 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_line    0x0000524e      0x5de C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_line    0x0000582c      0x5e4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_line    0x00005e10      0x809 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_line    0x00006619      0x1d5 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_line    0x000067ee       0x61 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_str      0x00000000    0x181b2
- .debug_str     0x00000000     0xf6de ./src/DigitalIoPin.o
-                               0xf896 (size before relaxing)
- .debug_str     0x0000f6de     0x45ad ./src/cr_cpp_config.o
-                               0x7b73 (size before relaxing)
- .debug_str     0x00013c8b      0x209 ./src/cr_startup_lpc15xx.o
-                               0x3328 (size before relaxing)
- .debug_str     0x00013e94     0x14cd ./src/pet_feeder_project.o
-                              0x136cf (size before relaxing)
- .debug_str     0x00015361      0x395 ./src/sysinit.o
+.debug_str      0x00000000    0x196a7
+ .debug_str     0x00000000     0xf575 ./src/DigitalIoPin.o
+                               0xf72d (size before relaxing)
+ .debug_str     0x0000f575     0x4530 ./src/cr_cpp_config.o
+                               0x79b5 (size before relaxing)
+ .debug_str     0x00013aa5      0x209 ./src/cr_startup_lpc15xx.o
+                               0x324c (size before relaxing)
+ .debug_str     0x00013cae      0xc32 ./src/pet_feeder_project.o
+                              0x12ccb (size before relaxing)
+ .debug_str     0x000148e0      0x32c ./src/sysinit.o
                               0x1248a (size before relaxing)
- .debug_str     0x000156f6      0xb1d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_str     0x00014c0c     0x149c C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
                               0x1383e (size before relaxing)
- .debug_str     0x00016213      0x8a4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_str     0x000160a8      0x8a4 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
                               0x13e4e (size before relaxing)
- .debug_str     0x00016ab7      0x15e C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
-                               0xfc63 (size before relaxing)
- .debug_str     0x00016c15      0x89f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
-                              0x10085 (size before relaxing)
- .debug_str     0x000174b4       0xd8 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
-                               0xf710 (size before relaxing)
- .debug_str     0x0001758c       0x41 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
-                               0xf22d (size before relaxing)
- .debug_str     0x000175cd      0x55d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
-                               0xfc35 (size before relaxing)
- .debug_str     0x00017b2a      0x183 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
-                               0xf71b (size before relaxing)
- .debug_str     0x00017cad      0x13f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
-                               0xf709 (size before relaxing)
- .debug_str     0x00017dec      0x215 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
-                               0xf879 (size before relaxing)
- .debug_str     0x00018001      0x18c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_str     0x0001694c     0x17c0 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+                              0x103fd (size before relaxing)
+ .debug_str     0x0001810c      0x89d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+                              0x10814 (size before relaxing)
+ .debug_str     0x000189a9       0xd8 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+                               0xfeaa (size before relaxing)
+ .debug_str     0x00018a81       0x41 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+                               0xf9c7 (size before relaxing)
+ .debug_str     0x00018ac2      0x55d C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+                              0x103cf (size before relaxing)
+ .debug_str     0x0001901f      0x183 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+                               0xfeb4 (size before relaxing)
+ .debug_str     0x000191a2      0x13f C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+                               0xfea3 (size before relaxing)
+ .debug_str     0x000192e1      0x215 C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+                              0x10013 (size before relaxing)
+ .debug_str     0x000194f6      0x18c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
                                 0x228 (size before relaxing)
- .debug_str     0x0001818d       0x25 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_str     0x00019682       0x25 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
                                 0x173 (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -2769,21 +2658,19 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000472       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000049f       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
+                0x0000049f       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
  .ARM.attributes
-                0x000004cc       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x000004cc       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
  .ARM.attributes
-                0x000004f9       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x000004f9       0x1d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crti.o
  .ARM.attributes
-                0x00000526       0x1d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crti.o
+                0x00000516       0x1d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtn.o
  .ARM.attributes
-                0x00000543       0x1d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtn.o
+                0x00000533       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
  .ARM.attributes
-                0x00000560       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\crtbegin.o
- .ARM.attributes
-                0x0000058d       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
+                0x00000560       0x2d c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
 
-.debug_frame    0x00000000     0x1aac
+.debug_frame    0x00000000     0x1a8c
  .debug_frame   0x00000000      0x190 ./src/DigitalIoPin.o
  .debug_frame   0x00000190       0xe0 ./src/cr_cpp_config.o
  .debug_frame   0x00000270      0x170 ./src/cr_startup_lpc15xx.o
@@ -2809,10 +2696,9 @@ LOAD linker stubs
  .debug_frame   0x00001880       0x8c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-freer.o)
  .debug_frame   0x0000190c       0xb0 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-lock.o)
  .debug_frame   0x000019bc       0x64 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
- .debug_frame   0x00001a20       0x20 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
- .debug_frame   0x00001a40       0x2c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_frame   0x00001a6c       0x20 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_frame   0x00001a8c       0x20 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
+ .debug_frame   0x00001a20       0x2c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_frame   0x00001a4c       0x20 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_frame   0x00001a6c       0x20 c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
 
 .debug_loc      0x00000000       0x7e
  .debug_loc     0x00000000       0x5c c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
@@ -2943,8 +2829,8 @@ DAC_IRQHandler                                    ./src/cr_startup_lpc15xx.o
 DMA_IRQHandler                                    ./src/cr_startup_lpc15xx.o
 DebugMon_Handler                                  ./src/cr_startup_lpc15xx.o
 DigitalIoPin::DigitalIoPin(int, int, DigitalIoPin::pinMode, bool) ./src/DigitalIoPin.o
-DigitalIoPin::DigitalIoPin(int, int, DigitalIoPin::pinMode, bool) ./src/DigitalIoPin.o
                                                   ./src/pet_feeder_project.o
+DigitalIoPin::DigitalIoPin(int, int, DigitalIoPin::pinMode, bool) ./src/DigitalIoPin.o
 DigitalIoPin::read()                              ./src/DigitalIoPin.o
 DigitalIoPin::write(bool)                         ./src/DigitalIoPin.o
                                                   ./src/pet_feeder_project.o
@@ -3119,8 +3005,6 @@ malloc                                            c:/metropolia/mcuxpressoide_11
 memcpy                                            c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-memcpy.o)
                                                   C:\Users\ruban\Documents\MCUXpressoIDE_11.5.1_7266\workspace2\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
 operator delete(void*)                            ./src/cr_cpp_config.o
-                                                  c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
-operator delete(void*, unsigned int)              c:/metropolia/mcuxpressoide_11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
                                                   ./src/DigitalIoPin.o
 operator delete[](void*)                          ./src/cr_cpp_config.o
 operator new(unsigned int)                        ./src/cr_cpp_config.o
